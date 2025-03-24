@@ -47,7 +47,11 @@
         async function connectWallet() {
             if (window.ethereum) {
                 web3 = new Web3(window.ethereum);
+                console.log("Ethereum successfully detected!");
+                console.log("WEB3: ", web3);
                 await window.ethereum.request({ method: "eth_requestAccounts" });
+                const WEB3_ETH= await web3.eth;
+                console.log("WEB3_ETH: ", WEB3_ETH);
                 const accounts = await web3.eth.getAccounts();
                 userAccount = accounts[0];
                 document.getElementById("account").innerText = userAccount;
