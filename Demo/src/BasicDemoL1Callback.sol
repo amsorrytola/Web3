@@ -2,7 +2,7 @@
 
 pragma solidity >=0.8.0;
 
-import '../../../lib/reactive-lib/src/abstract-base/AbstractCallback.sol';
+import "../lib/reactive-lib/src/abstract-base/AbstractCallback.sol";
 
 contract BasicDemoL1Callback is AbstractCallback {
     event CallbackReceived(
