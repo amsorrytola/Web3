@@ -4,3 +4,6 @@
 [submodule "MyNFT/lib/openzeppelin-contracts"]
 	path = MyNFT/lib/openzeppelin-contracts
 	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "lib/reactive-lib"]
+	path = lib/reactive-lib
+	url = https://github.com/Reactive-Network/reactive-lib
