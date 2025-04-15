@@ -1,0 +1,18 @@
+{
+    "name": "runes-api",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "chai-http": "^4.3.0",
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "bitcoin-core": "^5.0.0",
+        "bitcoinjs-lib": "^6.1.7",
+        "chai": "^5.2.0",
+        "mocha": "^11.1.0"
+    }
+}
